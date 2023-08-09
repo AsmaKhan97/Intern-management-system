@@ -1,0 +1,135 @@
+<head><style>
+
+.cover{padding: 11px;}
+.cvBody{border:1px solid black; min-height: 100%;max-height:100%; background:black}
+.cv-head{background:#212121;width: 30%;padding: 4px;float:left}
+.photo{background:#283136;height: 222px}
+.cv-content{;background:#FAF2EF;padding:11px 11px 11px 11px;float:right}
+.center{text-align: center;}
+#cvname{font-size:12pt}
+.circle{border-radius: 50%}
+.flex{display: inline-flex;}
+.about-tab{background:#3C474D;padding: 11px}
+.about-head{ color: white ;font-size: 11pt;font-variant: small-caps;margin: 5px 2px;}
+.about-details{color: white;padding:4px; font-family: calibri light;font-size:8pt;}
+.about-details li{font-size: 8pt;margin: 5px}
+.body-item{}
+.body-head{font-size: 12pt;font-family: algerian;font-weight:bold}
+.body-details{padding:0 0 0 22px; }
+.detail-item,.info-item{margin-top: 3px}
+.detail-item-head{font-size: 8pt;font-family: calibri light;font-weight: bold}
+.detail-item-body{font-size:8pt}
+.info-item-head{width: 144px;font-size: 10pt;float: left;}
+.info-item-body{width: 200px;font-size: 10pt;float: right;}
+.detail-item-text{font-size: 10pt;}
+</style></head> 
+           <div class="container" id="cont">
+        <div class="left">
+            <div class="profileText">
+                <div class="profileImg">
+            <img id="image_preview" src="logo.png" alt="Profile Image">
+          </div>
+                <h2 id="cvname">Your Name<br></h2>
+            </div>
+            <div class="Info">
+                <h3 class="title">Personal Info</h3>
+
+                <ul>
+                    <li>
+                        <span class="icon"><ion-icon name="phone-portrait-outline" role="img" class="md hydrated" aria-label="phone portrait outline"></ion-icon></span>
+                        <span class="text" id="cvcontact">+92300000000</span>
+                    </li>
+                    <li>
+                        <span class="icon"><ion-icon name="mail-unread-outline" role="img" class="md hydrated" aria-label="mail unread outline"></ion-icon></span>
+                        <span class="text" id="cvemail">Example@example.com</span>
+                    </li>
+                  
+                    <li>
+                        <span class="icon"><ion-icon name="calendar-outline" role="img" class="md hydrated" aria-label="calendar outline"></ion-icon></span>
+                        <span class="text" id="cvdob">dd/mm/yyyy</span>
+                    </li>
+                    <li>
+                        <span class="icon"><ion-icon name="location-outline" role="img" class="md hydrated" aria-label="location outline"></ion-icon></span>
+                        <span class="text" id="cvcity">City name</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="Info education">
+                <div class="h3 title">Education</div>
+               
+                        <div class="box"><h5 id="cvstdate">05/02/2019</h5></div><div class="box"><h5 id="cvendate"> - 05/02/2021</h5></div>
+                        <div class="box"><h4 id="cvedulevel">Education level</h4></div><div class="box"><h5 id="cvmedal"></h5></div>
+                        <div class="box"><h4 id="cvdegree">Degree tile</h4></div><div class="box"><h5 id="cvcgpa">CGPA</h5></div>
+                        <div class="box"><h4 id="cvinstitute">Institute Name</h4></div><div class="box"><h5 id="cvcountry">Country</h5></div>
+
+                   
+            </div>
+            <div class="Info skill">
+                <div class="h3 title">Skills</div>
+               
+                        <div class="box"><h4 id="cvskill1">Skill title</h4></div><div class="box"><h5 id="cvskill_level1">Skill level</h5></div>
+                        <div class="box"><h4 id="cvskill2">Skill title</h4></div><div class="box"><h5 id="cvskill_level2">Skill level</h5></div>
+                        <div class="box"><h4 id="cvskill3">Skill title</h4></div><div class="box"><h5 id="cvskill_level3">Skill level</h5></div>
+                        
+                   
+            </div>
+            
+        </div>
+        <div class="right">
+            <div class="about">
+                <h2 class="title2">Objectives</h2>
+                <p id="cvobj">Seeking a position in the field of Computer Science where I can utilize my skills to further work towards personal and professional development and contribute towards the prosperity of the organization.</p>
+            </div>
+            <div class="about">
+                <h2 class="title2">Experience</h2>
+                <div class="box">
+                    <div class="year_company">
+                        <h5 id="cvxendate">dd/mm/yy</h5>
+                        <h5 id="cvxstdate">dd/mm/yy</h5>
+                        <h6 id="cvcompany">Company</h6>
+                    </div>
+                    <div class="text">
+                        <h4 id="cvdesignation">Designation</h4><h4 id="cvwstatus" style="font-size:10px;">working status?</h4>
+                        <p id="cvdescription">Working as an intern in Khyber Pakhtunkhwa Information Technology Board in collaboration with Code For Pakistan for six months of duration.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about">
+                <h2 class="title2">Projects</h2>
+                <div class="box">
+                    <div class="year_company">
+                        <h5 id="cvpendate">dd/mm/yy</h5>
+                        <h5 id="cvpstdate">dd/mm/yy</h5>
+                        <h6 id="cvpcompany">Company</h6>
+                    </div>
+                    <div class="text">
+                        <h4 id="cvptitle">Project Title</h4><h4 id="cvrole" style="font-size:10px;">Your Role</h4>
+                        <p id="cvpdescription">Working as an intern in Khyber Pakhtunkhwa Information Technology Board in collaboration with Code For Pakistan for six months of duration.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about">
+                <h2 class="title2">Certification</h2>
+                <div class="box">
+                    <div class="year_company">
+                        <h5 id="cvcdate">dd/mm/yy</h5>
+                    </div>
+                    <div class="text">
+                        <h4 id="cvctitle">Certificate Title</h4>
+                        <p id="cvcdescription">Working as an intern in Khyber Pakhtunkhwa Information Technology Board in collaboration with Code For Pakistan for six months of duration.</p>
+                    </div>
+                </div>
+            </div>
+           
+    <img id="uploadedImage" src="" alt="Uploaded Image" style="display:none;visibility:none;">
+    
+    <img id="uploadedLetter" src="" alt="Uploaded Letter" style="display:none;visibility:none;">
+    
+    <img id="uploadedCert" src="" alt="Uploaded Certificate" style="display:none;visibility:none;">
+
+            
+
+
+
+        </div>
+    </div>
